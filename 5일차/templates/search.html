@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html tang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Scrapper</title>
+    <a href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+</head>
+<body>
+    <main class="container">
+        <hgroup>
+            <h1>Search Results for "{{keyword}}":</h1> 
+            <!--<a target="_blank" href="/export?keyword={{keyword}}">Export to file</a>"-->
+        </hgroup>
+        <figure><table role="grid">
+            <thead>
+                <tr>
+                    <th>fff</th>
+                    <th>Company</th>
+                    <th>Location</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+        </table></figure>
+        <!-- {% for job in jobs %} 
+        {{ }}는 안에 variable을 넣으면 Flask가 이 variable을 값으로 변환해준다
+            {% %} 안에는 우리가 실행하고 싶은 Python 코드를 넣는 것이다
+            <div>
+                <span>{{job.position}}</span>
+                Flask는 {{}}안에 있는 것을 실제 값(데이터)로 바꾸기 때문에
+                    job.position은 실제 job item의 position으로 바뀔 것이다
+                <span>{{job.company}}</span>
+                <span>{{job.location}}</span>
+                <a href="{{job.link}}" target="_blank">Apply now &rarr;</a>
+            </div>
+        {% end for %} -->
+</body>
+</html>
